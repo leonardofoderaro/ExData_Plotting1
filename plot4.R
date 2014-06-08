@@ -10,7 +10,7 @@ data <- read.csv('data.csv', sep=';')
 # open the device
 png("plot4.png", width=480, height=480)
 par(mfrow=c(2,2))
-plot(data$Global_active_power, type="l", xaxt="n", ylab="Globa Active Power", xlab="")
+plot(data$Global_active_power, type="l", xaxt="n", ylab="Global Active Power", xlab="")
 axis(1, at=c(0, table(data$Date)[[2]], nrow(data)), labels=c('Thu', 'Fri', 'Sat'))
 
 plot(data$Voltage, type="l", xaxt="n", ylab="Voltage", xlab="datetime")
@@ -26,7 +26,7 @@ legend(x="topright", # places a legend at the appropriate place
        lty=c(1,1,1), # gives the legend appropriate symbols (lines)
        lwd=c(2.5,2.5,2.5),col=c("black", "red","blue")) # gives the legend lines the correct color and width
 
-plot(data$Global_reactive_power, type="l", xaxt="n", xlab="datetime", ylab="Global Reactive Power")
+plot(data$Global_reactive_power, type="l", xaxt="n", xlab="datetime", ylab="Global_reactive_power")
 axis(1, at=c(0, table(data$Date)[[2]], nrow(data)), labels=c('Thu', 'Fri', 'Sat'))
 
 #close the device

@@ -1,4 +1,4 @@
-
+  
 # change the working dir to your own
 setwd('/Users/iLeo/coursera/DataScience/RProgramming/01/ExData_Plotting1')
 

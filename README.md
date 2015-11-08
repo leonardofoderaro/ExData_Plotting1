@@ -17,9 +17,8 @@ are available.
 
 
 The following descriptions of the 9 variables in the dataset are taken
-from
-the <a href="https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption">UCI
-web site</a>:
+from the <a href="https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption">
+UCI web site</a>:
 
 <ol>
 <li><b>Date</b>: Date in format dd/mm/yyyy </li>
